@@ -1,0 +1,136 @@
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/*Top navigation links*/
+#nav-top-wrap {
+    min-width: 800px;
+}
+
+ul#top-right {
+    float: right;
+    margin: 10px 20px 100px 0px;
+    min-width: 200px;
+}
+
+    ul#top-right li a{
+      color: #404040;
+      text-decoration: none;
+      padding: 5px 2px 0px 2px ;
+    }
+
+    ul#top-right li a:hover {
+      text-decoration: underline;
+    }
+
+li {
+  font-family: arial, sans-serif;
+  display: inline-block;
+  font-size: 10px;
+}
+
+span#sign-in-button {
+  background-color: #4182f6;
+  color: white;
+  font-family: arial;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+
+#sign-in-button:hover {
+  text-decoration: none;
+}
+
+/*Content*/
+div#logo-and-form-wrap {
+    width: 100%;
+    clear:both;
+    margin-top: 100px;
+    min-width: 800px;
+    position: relative;
+
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 387px;
+  cursor: pointer;
+}
+
+/*Form*/
+form {
+  margin: 0 auto;
+  text-align: center;
+  width: 650px;
+}
+
+#search-box {
+  display: block;
+  margin: 10px auto;
+  width: 450px;
+  border: 1px solid #C6C9CC;
+  padding: 3px;
+  cursor: text;
+}
+
+.both-buttons {
+  font-size:8px;
+  cursor: auto;
+  padding: 4px 8px 4px 8px;
+  border: 1px outset #d9d9d9;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  border-style: solid;
+}
+
+.left-button {
+  margin-left: 5px;
+
+}
+
+.right-button {
+  margin-right: 5px;
+}
+
+/*Footer*/
+#navbar-bottom {
+  border-top: 1px solid #E4E4E4;
+  background-color: #f2f2f2;
+  height: 30px;
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-width: 800px;
+
+}
+
+  #navbar-bottom a {
+    margin: 5px 5px 0px 5px;
+    display: block;
+    text-decoration: none;
+    color: #666666;
+  }
+
+  #navbar-bottom a:hover {
+    text-decoration: underline;
+  }
+
+  ul#navbar-bottom-left {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+
+  ul#navbar-bottom-right {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+.new {
+  color: #B14465;
+}
